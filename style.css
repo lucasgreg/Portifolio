@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+#home{
+    height: 100vh;
+    background-color: #fbfbfd;
+}
+
+.container-principal{
+    font-family: 'Recursive', sans-serif;
+    color: black;
+    position: relative;
+    width: 80%;
+    top: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.container-boas-vindas{
+    font-size: 30px
+}
+
+
+.container-nome{
+    color: black;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+.social-icones{
+    width: 25px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 30%;
+}
+
+.social-icones:hover{
+    border-color: green;
+    background-color: #f3f3f3;
+    box-shadow: 1px 1px 7px 0px gray;
+}
+
+.github{
+    margin: 0px 15px 0px 15px;
+}
+
+/*-------------------------
+----------PROJETOS---------
+---------------------------*/
+
+
+#projetos{
+    background-color: black;
+    color: white;
+}
+
+
+#projetos h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.container-projetos{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projeto{
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 24%;
+    cursor: pointer;
+    background-color: #dadadd;
+    color: black;
+}
+
+.projeto:hover{
+    box-shadow: 1px 1px 13px 0px gray;
+}
+
+.projeto-img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.img-projeto{
+    width: 100%;
+    height: 100%;
+    border-radius: 13px 13px 0px 0px;
+}
+
+.projeto-titulo{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.projeto-titulo h6{
+    font-size: 20px;
+}
+
+.projeto-div-informacao{
+    text-align: center;
+    margin: 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------
+----------QUEM SOU---------
+---------------------------*/
+
+#quem-sou{
+    color: black;
+    background-color: #fbfbfd;
+    height: 100vh;
+    text-align: center;
+}
+
+.container-sobre{
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px 0px gray;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+
+}
+
+.container-sobre .img{
+    text-align: center;
+}
+
+.img-eu{
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px 0px gray;
+    width: 45%;
+}
+
+.container-sobre-escrita{
+    margin: 0px 50px;
+    margin-top: 40px;
+}
