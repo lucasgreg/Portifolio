@@ -16,14 +16,25 @@ const div6 = document.querySelector(".projeto-div-informacao6")
 const div7 = document.querySelector(".projeto-div-informacao7")
 const div8 = document.querySelector(".projeto-div-informacao8")
 
+const img1 = document.querySelector("#seta1")
+const img2 = document.querySelector("#seta2")
+const img3 = document.querySelector("#seta3")
+const img4 = document.querySelector("#seta4")
+const img5 = document.querySelector("#seta5")
+const img6 = document.querySelector("#seta6")
+const img7 = document.querySelector("#seta7")
+const img8 = document.querySelector("#seta8")
+
 botao1.onclick = clickBotao1
 
 function clickBotao1 (){
 
     if(div1.style.display === 'block'){
         div1.style.display = 'none'
+        img1.setAttribute('src', 'img/setaDown.png')
     } else {
         div1.style.display = 'block'
+        img1.setAttribute('src', 'img/setaUp.png')
     }
 }
 
@@ -33,8 +44,10 @@ function clickBotao2 (){
 
     if(div2.style.display === 'block'){
         div2.style.display = 'none'
+        img2.setAttribute('src', 'img/setaDown.png')
     } else {
         div2.style.display = 'block'
+        img2.setAttribute('src', 'img/setaUp.png')
     }
 }
 
@@ -44,8 +57,10 @@ function clickBotao3 (){
 
     if(div3.style.display === 'block'){
         div3.style.display = 'none'
+        img3.setAttribute('src', 'img/setaDown.png')
     } else {
         div3.style.display = 'block'
+        img3.setAttribute('src', 'img/setaUp.png')
     }
 }
 
@@ -54,9 +69,11 @@ botao4.onclick = clickBotao4
 function clickBotao4 (){
 
     if(div4.style.display === 'block'){
-        div2.style.display = 'none'
+        div4.style.display = 'none'
+        img4.setAttribute('src', 'img/setaDown.png')
     } else {
         div4.style.display = 'block'
+        img4.setAttribute('src', 'img/setaUp.png')
     }
 }
 
@@ -66,8 +83,10 @@ function clickBotao5 (){
 
     if(div5.style.display === 'block'){
         div5.style.display = 'none'
+        img5.setAttribute('src', 'img/setaDown.png')
     } else {
         div5.style.display = 'block'
+        img5.setAttribute('src', 'img/setaUp.png')
     }
 }
 
@@ -77,8 +96,10 @@ function clickBotao6 (){
 
     if(div6.style.display === 'block'){
         div6.style.display = 'none'
+        img6.setAttribute('src', 'img/setaDown.png')
     } else {
         div6.style.display = 'block'
+        img6.setAttribute('src', 'img/setaUp.png')
     }
 }
 
@@ -88,8 +109,10 @@ function clickBotao7 (){
 
     if(div7.style.display === 'block'){
         div7.style.display = 'none'
+        img7.setAttribute('src', 'img/setaDown.png')
     } else {
         div7.style.display = 'block'
+        img7.setAttribute('src', 'img/setaUp.png')
     }
 }
 
@@ -99,7 +122,9 @@ function clickBotao8 (){
 
     if(div8.style.display === 'block'){
         div8.style.display = 'none'
+        img8.setAttribute('src', 'img/setaDown.png')
     } else {
         div8.style.display = 'block'
+        img8.setAttribute('src', 'img/setaUp.png')
     }
 }
