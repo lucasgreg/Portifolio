@@ -67,6 +67,27 @@ body{
     color: white;
 }
 
+.headline::before{
+    display: block;
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: white;
+    right: 58%;
+    transform: translateY(32px);
+    position: absolute;
+} 
+
+.headline::after{
+    display: block;
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: white;
+    left: 58%;
+    transform: translateY(-26px);
+    position: absolute;
+}
 
 #projetos h1{
     text-align: center;
@@ -141,7 +162,9 @@ body{
 }
 
 #projetos p{
-    margin: 20px 0px 20px 0px;
+    font-size: 20px;
+    text-align: initial;
+    margin: 20px 10px 20px 10px;
 }
 
 .div-botao{
@@ -186,13 +209,19 @@ button:hover{
 #quem-sou{
     color: black;
     background-color: #fbfbfd;
-    height: 100vh;
     text-align: center;
 }
 
+.headline-quemSou h1{
+    font-size: 50px;
+}
+
+.container-apresentacao{
+    padding: 45px 0px 100px 0px;
+}
+
 .container-sobre{
-    width: 50%;
-    height: 500px;
+    width: 70%;
     border-radius: 20px;
     box-shadow: 1px 1px 7px 0px gray;
     margin: auto;
@@ -207,13 +236,73 @@ button:hover{
 
 .img-eu{
     margin-top: 20px;
-    border: 1px solid gray;
-    border-radius: 20px;
-    box-shadow: 1px 1px 7px 0px gray;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px gray;
     width: 45%;
 }
 
 .container-sobre-escrita{
+    font-size: 20px;
     margin: 0px 50px;
-    margin-top: 40px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.headline-softSkill{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.headline-softSkill::before{
+    display: block;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: black;
+    right: 58%;
+    transform: translateY(19px);
+    position: absolute;
+} 
+
+.headline-softSkill::after{
+    display: block;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: black;
+    left: 58%;
+    transform: translateY(-14px);
+    position: absolute;
+}
+
+.container-softSkil{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 50px;
+}
+
+.container-softSkil div{
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(234, 233, 233);
+}
+
+.container-softSkil h3{
+    margin: 20px 20px 0px 20px;
+    font-size: 25px;
+}
+
+.container-softSkil p{
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
