@@ -177,10 +177,12 @@ button{
     font-size: 13px;
     font-weight: 600;
     border: 1px solid black;
+    color: black;
     background-color: #dadadd;
     display: flex;
-    align-items: center;
+    justify-content: center;
     border-radius: 3px;
+    width: 50%;
 }
 
 button:hover{
@@ -305,4 +307,84 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+
+
+/*-------------------------
+---------RESPONSIVO---------
+---------------------------*/
+
+
+@media (max-width: 500px){
+    .container-principal{
+        top: 30%;
+    }
+
+    .container-boas-vindas{
+        font-size: 20px;
+    }
+
+    .container-nome{
+        font-size: 35px;
+    }
+
+    #projetos h1{
+        font-size: 35px;
+    }
+
+    .headline::before{
+        right: 68%;
+        transform: translateY(21px);
+    }
+
+    .headline::after{
+        left: 68%;
+        transform: translateY(-19px);
+    }
+
+    .div-projetos{
+        flex-direction: column;
+    }
+
+    .projeto{
+        width: 100%;
+    }
+
+    .container-sobre{
+        width: 93%;
+    }
+
+    .img-eu{
+        width: 80%;
+    }
+
+    .container-sobre-escrita{
+        margin: 0px 10px;
+        padding: 15px;
+    } 
+
+    .headline-softSkill::before{
+        right: 67%;
+    }
+
+    .headline-softSkill::after{
+        left: 67%;
+    }
+
+    .container-softSkil{
+        flex-direction: column;
+    }
+
+    .container-softSkil{
+        margin: 0px 20px;
+    }
+
+    .container-softSkil div{
+        width: 100%;
+    }
+
+    footer{
+        font-size: 13px;
+    }
 }
