@@ -161,6 +161,29 @@ body{
     margin: 0px 10px;
 }
 
+.div-Repositorio{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    color: black;
+    background-color: rgb(236, 236, 236);
+    
+}
+
+.linkRepositorio{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.repositorioImg{
+    width: 20px;
+    margin-left: 10px;
+}
+
 #projetos p{
     font-size: 20px;
     text-align: initial;
