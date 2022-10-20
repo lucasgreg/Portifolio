@@ -128,3 +128,23 @@ function clickBotao8 (){
         img8.setAttribute('src', 'img/setaUp.png')
     }
 }
+
+
+//Animacao no titulo
+
+
+const titulo = document.querySelector(".container-nome")
+
+function typeWriter(elemento) {
+    const textoArray = elemento.innerHTML.split("")
+    elemento.innerHTML = ""
+
+    textoArray.forEach((letra, index)=> {
+        setTimeout(function(){
+            elemento.innerHTML += letra
+        }, 85 * index)
+        
+    })
+}
+
+typeWriter(titulo)
